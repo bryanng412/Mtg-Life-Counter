@@ -1,0 +1,75 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <ListView
+        android:layout_height="fill_parent"
+        android:layout_width="60dp"
+        android:id="@+id/history"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp">
+    </ListView>
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        android:id="@+id/manaButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:id="@+id/infectButton"
+        android:background="@drawable/infect"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="90dp"
+        android:alpha="0.5" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:id="@+id/cmdrButton"
+        android:background="@drawable/cmdr"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="175dp"
+        android:alpha="0.5" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/diceButton"
+        android:background="@drawable/dice"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:id="@+id/dice1"
+        android:background="@drawable/dice"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="96dp"
+        android:alpha="0" />
+
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:id="@+id/dice2"
+        android:background="@drawable/dice"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="176dp"
+        android:alpha="0" />
+</RelativeLayout>
